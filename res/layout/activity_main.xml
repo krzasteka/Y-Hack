@@ -6,7 +6,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context=".Main" >
+    tools:context=".Main" >a
 
     <ImageView
         android:id="@+id/imageView1"
@@ -18,36 +18,39 @@
         android:src="@drawable/ic_launcher" />
 
     <Button
-        android:id="@+id/paymentInfo"
+        android:id="@+id/uploadPicture"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/imageView1"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="88dp"
-        android:text="Payment Info" />
-
-    <Button
-        android:id="@id/takePicture"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/paymentInfo"
-        android:layout_centerHorizontal="true"
-        android:text="Take a picture." />
+        android:layout_marginTop="20dp"
+        android:text="Upload Picture" />
 
     <Button
         android:id="@+id/drinkMenu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/takePicture"
+        android:layout_below="@+id/uploadPicture"
         android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
         android:text="Drink Menu" />
 
     <Button
-        android:id="@+id/order"
+        android:id="@+id/paymentButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/drinkMenu"
         android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="Payment Button" />
+
+    <Button
+        android:id="@+id/Order"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/paymentButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
         android:text="Order" />
 
 </RelativeLayout>
