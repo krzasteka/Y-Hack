@@ -4,5 +4,7 @@
     <string name="app_name">Y-Hack</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
+    <string name="title_activity_beer_selection">BeerSelection</string>
+    <string name="title_activity_payment">Payment</string>
 
 </resources>

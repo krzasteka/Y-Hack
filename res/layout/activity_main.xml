@@ -8,9 +8,46 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".Main" >
 
-    <TextView
+    <ImageView
+        android:id="@+id/imageView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/ic_launcher" />
+
+    <Button
+        android:id="@+id/paymentInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="88dp"
+        android:text="Payment Info" />
+
+    <Button
+        android:id="@id/takePicture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/paymentInfo"
+        android:layout_centerHorizontal="true"
+        android:text="Take a picture." />
+
+    <Button
+        android:id="@+id/drinkMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/takePicture"
+        android:layout_centerHorizontal="true"
+        android:text="Drink Menu" />
+
+    <Button
+        android:id="@+id/order"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/drinkMenu"
+        android:layout_centerHorizontal="true"
+        android:text="Order" />
 
 </RelativeLayout>
